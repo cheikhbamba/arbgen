@@ -11,7 +11,7 @@ interface Props {
   renderNode: (node: IFamilyExtNode) => void;
 }
 
-export default React.memo<Props>(function ReactFamilyTree(props) {
+export default React.memo<Props>(function ArbGen(props) {
   const data = relTree(props.nodes, props.rootId);
 
   const width = props.width / 2;

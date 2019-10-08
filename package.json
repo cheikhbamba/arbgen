@@ -1,6 +1,6 @@
 {
   "name": "arbgen",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "React rendo comp",
   "main": "lib/index.js",
   "typings": "index.d.ts",

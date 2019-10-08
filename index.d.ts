@@ -1,3 +1,3 @@
-import ReactFamilyTree from './src/index';
+import ArbGen from './src/index';
 
-export default ReactFamilyTree;
+export default ArbGen;
