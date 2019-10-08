@@ -1,0 +1,38 @@
+{
+  "name": "arbgen",
+  "version": "1.3.0",
+  "description": "React rendo comp",
+  "main": "lib/index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheikhbamba/arbgen.git"
+  },
+  "author": "SK & CBB",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "src",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "react",
+    "arbgen"
+  ],
+  "bugs": {
+    "url": "https://github.com/cheikhbamba/arbgen/issues"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.23",
+    "react": "16.8.6",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "arbnod": "1.0.0"
+  },
+  "homepage": "https://github.com/cheikhbamba/arbgen"
+}
