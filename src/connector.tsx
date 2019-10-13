@@ -14,11 +14,11 @@ export default React.memo<Props>(function Connector({ connector, width, height }
     <i
       style={{
         position: 'absolute',
-        width: Math.max(1, (x2 - x1) * width + 1),
-        height: Math.max(1, (y2 - y1) * height + 1),
-        background: `#999`,
+        width: Math.max(1, (x2 - x1) * width + 2),
+        height: Math.max(1, (y2 - y1) * height + 2),
+        background: `#fff`,
         transform: `translate(${x1 * width}px, ${y1 * height}px)`,
-        pointerEvents: 'none',
+        pointerEvents: 'auto',
       }}
     />
   );
